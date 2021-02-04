@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "832721245838",
+    "project_id": "logingrocery",
+    "storage_bucket": "logingrocery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832721245838:android:8e0deea7c8b0a265179bdf",
+        "android_client_info": {
+          "package_name": "com.ghost.grocerylogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832721245838-0qkoglkg0so2mnc22aodaguo9dhhdg5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcmboR3Lv38Kn9Qvhwwh8_15NhYAnylvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832721245838-0qkoglkg0so2mnc22aodaguo9dhhdg5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832721245838:android:14bc87fd04a9f8de179bdf",
+        "android_client_info": {
+          "package_name": "in.codeandroid.firebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832721245838-0qkoglkg0so2mnc22aodaguo9dhhdg5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcmboR3Lv38Kn9Qvhwwh8_15NhYAnylvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832721245838-0qkoglkg0so2mnc22aodaguo9dhhdg5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
