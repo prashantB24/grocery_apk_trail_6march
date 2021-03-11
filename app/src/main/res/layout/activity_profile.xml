@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:background="#A2EE6F"
+        >
+
+
+    <TextView
+            android:text="Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_username"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:padding="10dp"/>
+
+    <EditText
+            android:id="@+id/et_name"
+            android:hint="Enter name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+    />
+    <TextView
+            android:text="Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_email"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            />
+    <EditText
+            android:id="@+id/et_email"
+            android:hint="Enter Email address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+    <TextView
+            android:text="Phone number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_Number"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            />
+    <EditText
+            android:id="@+id/et_number"
+            android:hint="Enter Phone number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+    <TextView
+            android:text="Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_address"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            />
+    <EditText
+            android:id="@+id/et_address"
+            android:hint="Enter address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:padding="5dp">
+
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_submit"
+                android:layout_weight="0.5"
+                android:text="Submit"
+                android:background="#EB9886"
+                />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_reset"
+                android:layout_weight="0.5"
+                android:text="Reset"
+                android:background="#EB9886"
+                />
+    </LinearLayout>
+</LinearLayout>
+

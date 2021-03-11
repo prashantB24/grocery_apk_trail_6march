@@ -2,13 +2,15 @@ package `in`.codeandroid.firebasedemo
 
 import android.content.DialogInterface
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
+
 import android.os.Bundle
-import android.support.v7.app.AlertDialog
+
 import android.util.Log
 import android.util.Patterns
 import android.widget.EditText
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
@@ -106,7 +108,7 @@ class LoginActivity : AppCompatActivity() {
 
         if (currentUser != null) {
             if(currentUser.isEmailVerified) {
-                startActivity(Intent(this, DashboardActivity::class.java))
+                startActivity(Intent(this, Home_Page::class.java))
                 finish()
             }else{
                 Toast.makeText(
