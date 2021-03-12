@@ -14,19 +14,17 @@
         <activity android:name=".SignUpActivity">
         </activity>
         <activity android:name=".LoginActivity">
-        </activity>
-        <activity android:name=".Home_Page">
-        </activity>
-        <activity android:name=".Profile">
-        </activity>
-        <activity android:name="">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-    </activity>
+        </activity>
+        <activity android:name=".Home_Page">
+        </activity>
+        <activity android:name=".Profile">
+        </activity>
     </application>
 
 </manifest>
